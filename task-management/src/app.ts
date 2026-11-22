@@ -168,4 +168,3 @@ export function createApp(config: AppConfig, store: Store = new InMemoryStore())
   app.use(errorHandler());
   return app;
 }
-
